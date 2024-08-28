@@ -159,6 +159,8 @@ object SpawnNotification {
             )
 
             Broadcast.broadcastMessage(messageComponent)
+        } else if (config.broadcastRangeEnabled) {
+            Broadcast.broadcastMessage(getValidPlayers(level, pos), messageComponent)
         } else {
             Broadcast.broadcastMessage(level, messageComponent)
         }
