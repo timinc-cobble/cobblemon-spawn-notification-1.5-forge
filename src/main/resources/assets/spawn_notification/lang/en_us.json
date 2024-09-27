@@ -1,5 +1,5 @@
 {
-  "spawn_notification.notification.spawn": "A %1$s%2$s%3$s%4$s spawned %5$s%6$s%7$s",
+  "spawn_notification.notification.spawn": "A %1$s%2$s%3$s%4$s appeared %5$s%6$s%7$s",
   "spawn_notification.notification.despawn": "A %1$s%2$s%3$s%4$s %5$s %6$s%7$s%8$s",
 
   "spawn_notification.notification.shiny": "%1$s ",
@@ -44,5 +44,7 @@
 
   "spawn_notification.despawn_reason.captured": "was captured",
   "spawn_notification.despawn_reason.fainted": "fainted",
-  "spawn_notification.despawn_reason.despawned": "despawned"
+  "spawn_notification.despawn_reason.despawned": "despawned",
+
+  "spawn_notification_shinysoundsubtitle": "A shiny appeared"
 }

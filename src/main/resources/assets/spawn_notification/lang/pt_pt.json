@@ -1,8 +1,50 @@
 {
-  "spawn_notification.notification.legendary.shiny": "Um %d Lendário Shiny apareceu",
-  "spawn_notification.notification.shiny": "Um %d Shiny apareceu ",
-  "spawn_notification.notification.legendary": "Um %d Lendário apareceu",
-  "spawn_notification.notification.coords": " em (%d, %d, %d)",
-  "spawn_notification.notification.biome": " no bioma %d",
-  "spawn_notification.shinysoundsubtitle": "Um Shiny apareceu"
+  "spawn_notification.notification.spawn": "Um %4$s%1$s%2$s%3$s apareceu %5$s%6$s%7$s",
+  "spawn_notification.notification.despawn": "Um %4$s%1$s%2$s%3$s %5$s %6$s%7$s%8$s",
+
+  "spawn_notification.notification.shiny": "%1$s ",
+  "spawn_notification.notification.label": "%1$s ",
+  "spawn_notification.notification.bucket": "%1$s ",
+  "spawn_notification.notification.biome": "no %1$s ",
+  "spawn_notification.notification.coords": "em (%1$s, %2$s, %3$s) ",
+  "spawn_notification.notification.dimension": "no %1$s",
+
+  "spawn_notification.shiny": "shiny",
+
+  "dimension.minecraft.overworld": "Superfície",
+  "dimension.minecraft.the_nether": "O Nether",
+  "dimension.minecraft.the_end": "O End",
+
+  "spawn_notification.bucket.common": "Comum",
+  "spawn_notification.bucket.uncommon": "Incomum",
+  "spawn_notification.bucket.rare": "Raro",
+  "spawn_notification.bucket.ultra-rare": "Ultra Raro",
+
+  "spawn_notification.label.gen1": "Geração 1",
+  "spawn_notification.label.gen2": "Geração 2",
+  "spawn_notification.label.gen3": "Geração 3",
+  "spawn_notification.label.gen4": "Geração 4",
+  "spawn_notification.label.gen5": "Geração 5",
+  "spawn_notification.label.gen6": "Geração 6",
+  "spawn_notification.label.gen7": "Geração 7",
+  "spawn_notification.label.gen8": "Geração 8",
+  "spawn_notification.label.gen9": "Geração 9",
+  "spawn_notification.label.kanto_regional": "Kanto Regional",
+  "spawn_notification.label.johto_regional": "Johto Regional",
+  "spawn_notification.label.hoenn_regional": "Hoenn Regional",
+  "spawn_notification.label.unova_regional": "Unova Regional",
+  "spawn_notification.label.kalos_regional": "Kalos Regional",
+  "spawn_notification.label.alola_regional": "Alola Regional",
+  "spawn_notification.label.legendary": "Lendário",
+  "spawn_notification.label.pseudo_legendary": "Pseudo Lendário",
+  "spawn_notification.label.mythical": "Mítica",
+  "spawn_notification.label.ultra_beast": "Ultra Besta",
+  "spawn_notification.label.paradox": "Paradoxo",
+  "spawn_notification.label.baby": "Bebê",
+
+  "spawn_notification.despawn_reason.captured": "foi capturado",
+  "spawn_notification.despawn_reason.fainted": "desmaiou",
+  "spawn_notification.despawn_reason.despawned": "desapareceu",
+
+  "spawn_notification_shinysoundsubtitle": "Um shiny apareceu"
 }
