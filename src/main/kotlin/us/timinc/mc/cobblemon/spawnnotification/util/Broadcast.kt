@@ -7,7 +7,7 @@ import net.minecraft.world.level.Level
 
 object Broadcast {
     fun broadcastMessage(message: Component) {
-        val serverInstance = server()?:return
+        val serverInstance = server() ?: return
         serverInstance.sendSystemMessage(message)
         serverInstance.playerList.players.forEach { it.sendSystemMessage(message) }
     }
