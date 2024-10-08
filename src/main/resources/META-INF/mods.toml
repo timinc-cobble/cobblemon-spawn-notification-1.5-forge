@@ -4,7 +4,7 @@ license = "MIT"
 
 [[mods]]
 modId = "spawn_notification"
-version = "1.5-forge-1.1.0"
+version = "1.5-forge-1.1.1"
 displayName = "Cobblemon Spawn Notification"
 description = '''
 When a Legendary and/or Shiny Pokemon shows up, a message is broadcast to all players on the server.
