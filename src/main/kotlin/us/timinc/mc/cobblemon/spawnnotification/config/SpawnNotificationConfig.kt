@@ -13,6 +13,7 @@ class SpawnNotificationConfig {
     val announceCrossDimensions = false
     val broadcastDespawns = false
     val broadcastVolatileDespawns = false
+    val broadcastSpeciesName = true
 
     val broadcastRange: Int = -1
     val playerLimit: Int = -1
