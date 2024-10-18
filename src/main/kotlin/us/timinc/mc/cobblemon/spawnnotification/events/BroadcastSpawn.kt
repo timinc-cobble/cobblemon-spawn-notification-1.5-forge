@@ -1,6 +1,7 @@
 package us.timinc.mc.cobblemon.spawnnotification.events
 
 import com.cobblemon.mod.common.api.events.entity.SpawnEvent
+import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawner
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity
 import us.timinc.mc.cobblemon.spawnnotification.SpawnNotification.config
 import us.timinc.mc.cobblemon.spawnnotification.broadcasters.SpawnBroadcaster
@@ -22,7 +23,8 @@ object BroadcastSpawn {
             evt.ctx.spawner.getSpawnPool(),
             evt.ctx.position,
             evt.ctx.biomeName,
-            evt.ctx.world.level.dimension().location()
+            evt.ctx.world.level.dimension().location(),
+            if (evt.ctx.spawner is PlayerSpawner) (evt.ctx.spawner as PlayerSpawner).getCauseEntity() else null
         ).getBroadcast()?.let { message ->
             if (config.announceCrossDimensions) {
                 Broadcast.broadcastMessage(message)
