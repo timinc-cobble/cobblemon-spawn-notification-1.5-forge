@@ -6,6 +6,7 @@ import com.cobblemon.mod.common.pokemon.Pokemon
 import net.minecraft.core.BlockPos
 import net.minecraft.network.chat.Component
 import net.minecraft.resources.ResourceLocation
+import net.minecraft.server.level.ServerPlayer
 import us.timinc.mc.cobblemon.spawnnotification.SpawnNotification.config
 
 class SpawnBroadcaster(
@@ -13,7 +14,8 @@ class SpawnBroadcaster(
     val spawnPool: SpawnPool,
     val coords: BlockPos,
     val biome: ResourceLocation,
-    val dimension: ResourceLocation
+    val dimension: ResourceLocation,
+    val player: ServerPlayer?
 ) {
     private val shiny
         get() = pokemon.shiny
@@ -60,6 +62,10 @@ class SpawnBroadcaster(
             if (config.announceCrossDimensions) config.getComponent(
                 "notification.dimension",
                 config.getRawComponent("dimension.${dimension.toLanguageKey()}")
+            ) else "",
+            if (config.broadcastPlayerSpawnedOn && player != null) config.getComponent(
+                "notification.player",
+                player.name
             ) else ""
         )
     }

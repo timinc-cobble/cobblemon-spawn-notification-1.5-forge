@@ -1,5 +1,5 @@
 {
-  "spawn_notification.notification.spawn": "A %1$s%2$s%3$s%4$s appeared %5$s%6$s%7$s",
+  "spawn_notification.notification.spawn": "A %1$s%2$s%3$s%4$s appeared %5$s%6$s%7$s%8$s",
   "spawn_notification.notification.despawn": "A %1$s%2$s%3$s%4$s %5$s %6$s%7$s%8$s",
 
   "spawn_notification.notification.shiny": "%1$s ",
@@ -8,6 +8,7 @@
   "spawn_notification.notification.biome": "in a %1$s ",
   "spawn_notification.notification.coords": "at %1$s, %2$s, %3$s ",
   "spawn_notification.notification.dimension": "in %1$s",
+  "spawn_notification.notification.player": " near %1$s",
 
   "spawn_notification.shiny": "shiny",
 
